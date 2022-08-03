@@ -1,0 +1,15 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true, // 型の指定を厳しく検査する
+        "noImplicitAny": false, // anyへの自動型変換を禁止
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "jsx": "react-jsx"
+    }
+}
